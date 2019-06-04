@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy:test": "SLS_DEBUG=* sls deploy -v"
+    "deploy:test": "SLS_DEBUG=* sls deploy -v --aws-profile renanbym"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "serverless": "^1.36.3"
+    "serverless": "^1.44.1"
   }
 }
